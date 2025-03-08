@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dh17j3rjgevgh"]
+
+[ext_resource type="Shader" uid="uid://c2y0ppoh5ldpf" path="res://addons/pixelperfectscalingbuttonbar/animated_button.gdshader" id="1_qj3te"]
+
+[resource]
+shader = ExtResource("1_qj3te")
+shader_parameter/normal_uv = Vector4(0, 0, 1, 1)
+shader_parameter/hover_uv = Vector4(0, 0, 1, 1)
+shader_parameter/pressed_uv = Vector4(0, 0, 1, 1)
+shader_parameter/hover_factor = 0.0
+shader_parameter/pressed_factor = 0.0
