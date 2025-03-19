@@ -132,9 +132,7 @@ var button_material : ShaderMaterial = preload( "animated_button_material.tres" 
 
 
 ## Press this 'button' if you see any discordance in the editor
-@export var refresh : bool = false :
-	set( _value ):
-		do_refresh()
+@export_tool_button( "Refresh", "Callable" ) var refresh_action : Callable = Callable(do_refresh)
 
 
 func _validate_property( _property ):

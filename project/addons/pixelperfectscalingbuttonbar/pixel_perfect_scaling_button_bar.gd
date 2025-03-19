@@ -59,9 +59,8 @@ enum PositionPresets {
 
 
 ## Press this 'button' if you see any discordance in the editor
-@export var refresh : bool = false :
-	set( _value ):
-		do_refresh()
+@export_tool_button( "Refresh", "Callable" ) var refresh_action := Callable(do_refresh)
+
 
 
 var already_sorted : bool = false
